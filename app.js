@@ -95,7 +95,7 @@ app.post('/multi-upload', upload.array('files', 10), (req, res) => {
     });
     res.status(200).json({
         status: true,
-        message: "Created by aqulzz",
+        message: "Subscribe ZEROBOT",
         result: result
     })
 })
